@@ -8,7 +8,6 @@ class School
     @roster = {}
   end
 
-  binding.pry
   def add_student(roster)
 
   end
