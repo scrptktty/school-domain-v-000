@@ -20,8 +20,7 @@ class School
   def sort
 
     roster.reduce({}) do |sorted_roster, (grade, students) |
-      binding.pry
-      students.sort
+      sorted_roster[grade] = students.sort
     end
 
   end
