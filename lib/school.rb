@@ -9,12 +9,10 @@ class School
   end
 
   def add_student(student, grade)
-    roster[grade] = []
+    roster[grade] =|| []
     roster[grade] << student
 
-    #{ 10 => ["AC Slater"] }
-
-    # =|| empty grade?
+    # a =|| b empty grade?
 
   end
 
