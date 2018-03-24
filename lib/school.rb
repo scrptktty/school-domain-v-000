@@ -14,7 +14,7 @@ class School
   end
 
   def grade
-    roster.keys.flatten
+    roster.values.flatten
   end
   #
   # def sort
