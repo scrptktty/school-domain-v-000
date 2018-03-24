@@ -16,6 +16,4 @@ class School
   #
   # def sort
   # end
-
-
 end
