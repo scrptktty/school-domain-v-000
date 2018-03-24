@@ -21,7 +21,7 @@ class School
 
     roster.reduce({}) do |sorted_roster, (grade, students) |
       binding.pry
-      students.sort    
+      students.sort
     end
 
   end
