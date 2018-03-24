@@ -6,9 +6,10 @@ class School
     @roster = {}
   end
 
-  # def add_student(roster)
-  # end
-  #
+  def add_student(roster)
+    binding.pry
+  end
+
   # def grade
   # end
   #
