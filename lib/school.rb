@@ -11,9 +11,10 @@ class School
   def add_student(student, grade)
     roster[student] = []
     binding.pry
-    hash[student] << grade
+    roster[student] << grade
 
     #{ 10 => ["AC Slater"] }
+    
     # =|| empty grade?
 
   end
