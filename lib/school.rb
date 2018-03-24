@@ -13,7 +13,7 @@ class School
     roster[grade] << student
   end
 
-  def grade
+  def grade(grade)
     roster.values.flatten
   end
   #
