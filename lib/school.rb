@@ -11,9 +11,6 @@ class School
   def add_student(student, grade)
     roster[grade] ||= []
     roster[grade] << student
-
-    # a =|| b empty grade?
-
   end
 
   # def grade
