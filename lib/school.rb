@@ -1,5 +1,3 @@
-require "pry"
-
 class School
   attr_reader :roster, :school
 
@@ -23,4 +21,4 @@ class School
       sorted_roster
     end
   end
-end # class Scholl
+end # class School
