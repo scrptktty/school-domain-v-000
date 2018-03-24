@@ -19,7 +19,7 @@ class School
 
   def sort
 
-    roster.map { |x, y| roster[x].sort }
+    roster.reduce({}) {|x, y| roster[x].sort }
 
   end
 end
