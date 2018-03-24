@@ -18,11 +18,9 @@ class School
   end
 
   def sort
-
     roster.reduce({}) do |sorted_roster, (grade, students) |
       sorted_roster[grade] = students.sort
       sorted_roster
     end
-
   end
 end
