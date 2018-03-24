@@ -19,7 +19,9 @@ class School
 
   def sort
 
-    roster.reduce({}) {|x, y| roster[x].sort }
+    roster.reduce({}) do |x, y| 
+      roster[x].sort
+    end
 
   end
 end
