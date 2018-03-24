@@ -19,8 +19,9 @@ class School
 
   def sort
 
-    roster.reduce({}) do |x, y| 
-      roster[x].sort
+    roster.reduce({}) do |sorted_roster, (grade, students) |
+      binding.pry
+      students.sort    
     end
 
   end
