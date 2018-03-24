@@ -13,8 +13,9 @@ class School
     roster[grade] << student
   end
 
-  # def grade
-  # end
+  def grade
+    roster.keys.flatten
+  end
   #
   # def sort
   # end
