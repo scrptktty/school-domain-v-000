@@ -8,7 +8,12 @@ class School
     @roster = {}
   end
 
-  def add_student(roster)
+  def add_student(grade, student)
+    roster[student] = []
+    hash[student] << grade
+
+    #{ 10 => ["AC Slater"] }
+    # =|| empty grade?
 
   end
 
