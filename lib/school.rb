@@ -14,7 +14,7 @@ class School
   end
 
   def grade(grade)
-    roster.values
+    roster.values.flatten
   end
   #
   # def sort
