@@ -18,6 +18,6 @@ class School
   end
 
   def sort
-    binding.pry
+    roster.map { |x| x.sort}
   end
 end
